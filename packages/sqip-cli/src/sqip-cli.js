@@ -179,7 +179,9 @@ export default async function sqipCLI() {
   debug(`Final sqip options:`, options)
 
   try {
+    console.time('sqip')
     await sqip(options)
+    console.timeEnd('sqip')
   } catch (err) {
     console.error(err)
     process.exit(1)

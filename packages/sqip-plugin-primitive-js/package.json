@@ -1,0 +1,30 @@
+{
+  "name": "sqip-plugin-primitive-js",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "thanhnd12 <thanhnd12@vng.com.vn>",
+  "homepage": "https://github.com/ndthanhdev/sqip#readme",
+  "license": "ISC",
+  "main": "dist/sqip-plugin-primitive-js.js",
+  "module": "dist/sqip-plugin-primitive-js.module.js",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndthanhdev/sqip.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ndthanhdev/sqip/issues"
+  },
+  "dependencies": {
+    "primitive": "^1.0.1"
+  }
+}
